@@ -1,0 +1,48 @@
+.holder {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  border-radius: 50px 50px 0 0;
+  overflow: hidden; 
+}
+
+
+.item {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.item:nth-child(1) {
+  background-color: tomato;
+  width: 50%;
+  order: 1;
+}
+
+.item:nth-child(5) {
+  background-color: orange;
+  width: 50%;
+  order: 2;
+}
+
+.item:nth-child(3) {
+  background-color: rebeccapurple;
+  width: 33.33%;
+  order: 3;
+}
+
+.item:nth-child(2) {
+  background-color: steelblue;
+  width: 33.33%;
+  order: 4;
+}
+
+.item:nth-child(4) {
+  background-color: green;
+  width: 33.33%;
+  order: 5;
+}
